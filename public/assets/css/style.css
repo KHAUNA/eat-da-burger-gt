@@ -1,0 +1,8 @@
+.non-eaten {
+    height: 30px;
+    width: auto;
+    background-color: lightblue;
+}
+body {
+    background-color: teal;
+}

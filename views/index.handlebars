@@ -1,0 +1,33 @@
+<h1>Eat-Da-Burger</h1>
+
+
+{{#each data}}
+    {{#if devoured}}
+        <div class="non-eaten">
+            <h5>{{burger_name}}</h3>
+            <button type="button" class="btn btn-secondary eat">EAT!</button>
+        </div>
+    {{/if}}
+{{/each}}
+
+
+
+
+
+
+	<div class="form-group">
+    <input type="text" class="form-control" placeholder="burger name" name="burger_name">
+  </div>
+  <br>
+<button type="button" id="add-burger" class="btn btn-success btn-lg">Add Burger</button>
+<br>
+
+<h2>Eat Me...you know you want too...</h1>
+<div id="hungry"></div>
+</div>
+
+<div id="full">
+<h2>That was good, how about another?</h1>
+</div>
+
+
